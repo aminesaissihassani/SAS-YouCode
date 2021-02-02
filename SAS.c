@@ -33,7 +33,7 @@ int main()
 		printf("Merci de entrer le nombre des electeurs (minimum 10): ");
 		scanf("%i", &vNum);
 	}
-	while (vNum < 5); // minimum 10
+	while (vNum < 10); // minimum 10
 	
 	president Presidents[pNum];
 	voter Voters[vNum];
